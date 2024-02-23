@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 ,maximum-scale=1.0, user-scalable=no">
+    <title>Gamini's Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.0.5/dist/css/splide.min.css">
+
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+
+
+
+
+
+</head>
+
+<body class="bg-white">
+
+
+    <nav class="hidden md:flex  md:bg-[#191919]    p-1 md:justify-evenly  ">
+        <ul class="flex space-x-20">
+            <a href="index.html"><li class="text-white text-lg hover:text-[#fe4419] font-semibold  cursor-pointer ">Home</li></a>
+            <a href="index.html#about"><li class="text-white text-lg hover:text-[#fe4419] font-semibold  cursor-pointer ">About</li></a>
+            <a href=""><li class="text-white text-lg hover:text-[#fe4419] font-semibold  cursor-pointer ">Services</li></a>
+        </ul>
+        <div class=" text-lg text-white italic cursor-pointer">Gamini Chadha</div>
+        <ul class="flex space-x-20 ">
+            <a href="resume/gdresume.pdf" download><li class="text-white text-lg hover:text-[#fe4419]  cursor-pointer "><i class="fa-solid fa-download py-2"></i> Resume</li></a>
+            <a href="index.html#projects"><li class="text-white text-lg hover:text-[#fe4419]  cursor-pointer ">Projects</li></a>
+            <a href="index.html#contact"><li class="text-white text-lg hover:text-[#fe4419]  cursor-pointer ">Contact me</li></a>
+        </ul>
+
+    </nav>
+
+
+    <nav class="flex-col bg-black   items-center md:hidden">
+        <div class="flex justify-between p-4 items-center">
+            <div class=" text-xl text-white  idiot3">Gamini Chadha</div>
+            <div class="" id="showButton">
+                <a href="#" class="text-4xl text-[#EBB737] ">&#8801</a>
+            </div>
+        </div>
+        <div class="hidden" id="myDiv">
+            <ul class=" flex-col space-y-2 place-content-center text-center p-4">
+                <a href="index.html"><li class="text-white text-[0.75rem] hover:text-[#EBB737]  cursor-pointer  py-2">Home</li></a>
+                <a href="index.html#about"><li class="text-white text-[0.75rem] hover:text-[#EBB737]  cursor-pointer  py-2">About</li></a>
+                <a href="resume/gdresume.pdf" download><li class="text-white text-[0.75rem] hover:text-[#EBB737]  cursor-pointer "><i class="fa-solid fa-download py-2"></i> Resume</li></a>
+                <a href="wd.html"><li class="text-white text-[0.75rem] hover:text-[#EBB737]  cursor-pointer py-2 ">Web Development</li></a>
+                <a href="index.html#contact"><li class="text-white text-[0.75rem] hover:text-[#EBB737]  cursor-pointer py-2 ">Contact me</li></a>
+            </ul>
+        </div>
+
+    </nav>
+
+
+    <!-- <p class="  text-xl font-bold text-[#662549] text-center py-3">---Designing Services---</p>
+    <div class="bg-orange-400 ">
+        <div class="p-4 ">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt sequi necessitatibus fugit vel libero harum odit commodi, iste dignissimos quas quia non voluptas fugiat asperiores dolor aperiam ratione obcaecati voluptate.
+        </div>
+    </div> -->
+
+    <div class="relative">
+        <img src="images/banners/2a.png" class=" hidden md:block .max-w-full and .h-auto my-8 ">
+        <img src="images/banners/6.png" class=" md:hidden .max-w-full and .h-auto  ">
+        <!-- <button class=" rounded-full p-3 absolute top-0 mx-[50rem] my-72 text-sm border border-black flex font-semibold items-center align-text-middle ">Resume  <i class="fa-solid fa-file-arrow-down px-2"></i> </button> -->
+
+
+    </div>
+
+    <!-- Explore by Category -->
+    <div class="my-3 ">
+        <!-- <p class="text-lg md:text-3xl  p-3 idiot4 font-medium">Explore Design Samples <br> by Category</p> -->
+        <p class="text-2xl md:text-4xl  font-serif  font-medium mx-4">Explore Design Samples </p>
+        <p class="text-2xl md:text-4xl font-serif font-medium text-[#fe4419] mx-4"> By Category</p>
+        <div class=" flex my-3 md:my-8 mx-3  space-x-4 overflow-x-auto p-2 items-center md:justify-center md:space-x-7">
+            <div class="flex flex-col justify-center flex-shrink-0 items-center ">
+                <a href="#logos"><img src="/images/s1-removebg-preview.png" class="h-40 md:h-60" alt=""></a>
+                <p class="md:font-semibold italic py-3 idiot4">Logo's</p>
+            </div>
+            <div class="flex flex-col justify-center flex-shrink-0 items-center">
+                <a href="#invitations"><img src="/images/s2-removebg-preview.png" class="h-40 md:h-60" alt=""></a>
+                <p class="md:font-semibold italic py-3 idiot4">E-invitations</p>
+            </div>
+            <div class="flex flex-col justify-center flex-shrink-0 items-center">
+                <a href="#social"><img src="/images/s3-removebg-preview.png" class="h-40 md:h-60" alt=""></a>
+                <p class="md:font-semibold italic py-3 idiot4 ">Social Media Creatives</p>
+            </div>
+            <div class="flex flex-col justify-center flex-shrink-0 items-center">
+                <a href="#mockup"><img src="/images/4-removebg-preview.png" class="h-40 md:h-60" alt=""></a>
+                <p class="md:font-semibold italic py-3 idiot4">Packaging </p>
+            </div>
+            <div class="flex flex-col justify-center flex-shrink-0 items-center">
+                <a href="#poster"><img src="/images/5-removebg-preview.png" class="h-40 md:h-60" alt=""></a>
+                <p class="md:font-semibold italic py-3 idiot4">Posters</p>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <!-- Logo Section -->
+
+
+
+    <p class="  text-3xl md:text-6xl  p-4 idiot5 font-semibold text-center  " id="logos"  data-aos="fade-up">Logo's</p>
+    <p class="  text-sm md:text-xl  mb-4 idiot4  text-center  mx-9 md:mx-64" data-aos="fade-up">Need to make a lasting impression? The
+        right combination of colors, shapes and words will define your brand. Get the perfect logo and ensure your
+        branding hits the spot.</p>
+    <div class=" grid grid-cols-2 md:grid-cols-4 md:mx-32" data-aos="fade-up"data-aos-duration="2000">
+        <div class="p-4 ">
+            <img src="/images/logo/1.jpg " class="" alt="">
+        </div>
+        <div class="p-4">
+            <img src="/images/logo/2.png " class="" alt="">
+        </div>
+        <div class="p-4">
+            <img src="/images/logo/3.jpg " class="" alt="">
+        </div>
+        <div class="p-4">
+            <img src="/images/logo/4.jpg " class="" alt="">
+        </div>
+        <div class="md:hidden col-span-2  flex justify-center">
+            <button class="bg-red-500 h-12 p-3 mt-5" id="myButton">View More</button>
+        </div>
+
+
+
+        <div class="p-4 hidden md:block myelement ">
+            <img src="/images/logo/5.jpg " class="" alt="">
+        </div>
+        <div class="p-4 hidden md:block myelement ">
+            <img src="/images/logo/6.jpg " class="" alt="">
+        </div>
+        <div class="p-4 hidden md:block myelement ">
+            <img src="/images/logo/7.png " class="" alt="">
+        </div>
+        <div class="p-4 hidden md:block myelement ">
+            <img src="/images/logo/8.jpg " class="" alt="">
+        </div>
+
+    </div>
+
+        <!-- E-invitations -->
+        <p class="text-3xl md:text-6xl  p-4 idiot6  text-center mt-5" id="invitations" >E-invitations</p>
+        <p class="  text-sm md:text-xl  mb-4 idiot4  text-center  mx-9 md:mx-64" >Need to make a lasting impression? The
+            right combination of colors, shapes and words will define your brand. Get the perfect logo and ensure your
+            branding hits the spot.</p>
+    
+        <div class="relative  md:mx-96 " >
+            <div class="flex items-center justify-center my-12">
+                <button id="prevBtn" class="mx-5 left-0 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full focus:outline-none">
+                    &lt;
+                </button>
+                <div class="overflow-hidden w-96">
+                    <div id="imageCarousel" class="flex transition-transform ease-in-out duration-300">
+                        <!-- Add your images here -->
+                        <img src="images/e-invites/1.jpg" alt="Image 1" class="w-full">
+                        <img src="images/e-invites/2.jpg" alt="Image 2" class="w-full">
+                        <img src="images/e-invites/3.jpg" alt="Image 3" class="w-full">
+                        <img src="images/e-invites/4.jpg" alt="Image 3" class="w-full">
+                        
+                    </div>
+                </div>
+                <button id="nextBtn" class=" mx-5 right-0 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full focus:outline-none">
+                    &gt;
+                </button>
+            </div>
+        </div>
+    
+        
+
+    <!-- Social media posts -->
+
+    <p class="text-3xl md:text-6xl  p-4 idiot6  text-center mt-5" id="social" data-aos="fade-up">Social Media Creatives</p>
+    <p class="  text-sm md:text-xl  mb-4 idiot4  text-center  mx-9 md:mx-64" data-aos="fade-up">Need to make a lasting impression? The
+        right combination of colors, shapes and words will define your brand. Get the perfect logo and ensure your
+        branding hits the spot.</p>
+
+    <div class=" grid grid-cols-2 md:grid-cols-4 md:mx-32" data-aos="fade-up" data-aos-duration="2000">
+        <div class="p-4 ">
+            <img src="/images/socialmedia/1.jpg" class="" alt="">
+        </div>
+        <div class="p-4">
+            <img src="/images/socialmedia/2.jpg " class="" alt="">
+        </div>
+        <div class="p-4">
+            <img src="/images/socialmedia/3.jpg " class="" alt="">
+        </div>
+        <div class="p-4">
+            <img src="/images/socialmedia/4.jpg " class="" alt="">
+        </div>
+        <div class="md:hidden col-span-2  flex justify-center">
+            <button class="bg-red-500 h-12 p-3 mt-5" id="postButton">View More</button>
+        </div>
+
+
+
+        <div class="p-4 hidden md:block  socialelement ">
+            <img src="/images/socialmedia/5.jpg " class="" alt="">
+        </div>
+        <div class="p-4 hidden md:block socialelement ">
+            <img src="/images/socialmedia/6.jpg " class="" alt="">
+        </div>
+        <div class="p-4 hidden md:block  socialelement ">
+            <img src="/images/socialmedia/7.jpg " class="" alt="">
+        </div>
+        <div class="p-4 hidden md:block  socialelement ">
+            <img src="/images/socialmedia/8.jpg " class="" alt="">
+        </div>
+
+    </div>
+
+
+    <!-- Mockups -->
+    <p class="text-3xl md:text-6xl  p-4 idiot6  text-center mt-5" id="mockup">Packaging</p>
+    <p class="  text-sm md:text-xl  mb-4 idiot4  text-center  mx-9 md:mx-64">Need to make a lasting impression? The
+        right combination of colors, shapes and words will define your brand. Get the perfect logo and ensure your
+        branding hits the spot.</p>
+
+        
+
+    <div class="relative  md:mx-96 ">
+        <div class="flex items-center justify-center my-12">
+            <button id="prevBtn2" class="mx-5 left-0 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full focus:outline-none">
+                &lt;
+            </button>
+            <div class="overflow-hidden w-96">
+                <div id="imageCarousel2" class="flex transition-transform ease-in-out duration-300">
+                    <!-- Add your images here -->
+                    <img src="images/mockup/1.jpg" alt="Image 1" class="w-full">
+                    <img src="images/mockup/2.jpg" alt="Image 2" class="w-full">
+                    <img src="images/mockup/3.jpg" alt="Image 3" class="w-full">
+                    
+                    
+                </div>
+            </div>
+            <button id="nextBtn2" class=" mx-5 right-0 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full focus:outline-none">
+                &gt;
+            </button>
+        </div>
+    </div>
+
+    <!-- Page description -->
+
+    <p class="text-center font-serif italic">For More Samples Visit My Instagram Page</p>
+    <a href="https://www.instagram.com/your_graphics_solution?igsh=YzAwZjE1ZTI0Zg=="><img src="/images/ygs.png" class="h-auto   mx-auto  max-w-xs md:max-w-xl object-fit-cover p-6" alt=""></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    <!-- footer -->
+        <div class="bg-[#262626]">
+            <p class="text-white py-6 text-center px-2">Copyright © 2023 <span class="text-[#fdaa4c]">GAMINI CHADHA </span>  All rights reserved.</p>
+            
+        </div>
+
+
+
+
+    <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+
+
+</body>
+
+</html>
